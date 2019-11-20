@@ -20,7 +20,27 @@ export class AppComponent {
       title: 'List',
       url: '/list',
       icon: 'list'
-    }
+    },
+    {
+      title: 'Delivery Request',
+      url: '/delivery-request',
+      icon: 'man'
+    },
+    {
+      title: 'Delivery Details',
+      url: '/delivery-details',
+      icon: 'information'
+    },
+    {
+      title: 'Pickup and Destination',
+      url: '/pickup-and-destinationst',
+      icon: 'bicycle'
+    },
+    {
+      title: 'Order Compelte',
+      url: '/order-compelte',
+      icon: 'checkmark'
+    },
   ];
 
   constructor(

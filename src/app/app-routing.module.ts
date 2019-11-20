@@ -14,6 +14,22 @@ const routes: Routes = [
   {
     path: 'list',
     loadChildren: () => import('./list/list.module').then(m => m.ListPageModule)
+  },
+  {
+    path: 'delivery-request',
+    loadChildren: () => import('./delivery-request/delivery-request.module').then( m => m.DeliveryRequestPageModule)
+  },
+  {
+    path: 'delivery-details',
+    loadChildren: () => import('./delivery-details/delivery-details.module').then( m => m.DeliveryDetailsPageModule)
+  },
+  {
+    path: 'pickup-and-destination',
+    loadChildren: () => import('./pickup-and-destination/pickup-and-destination.module').then( m => m.PickupAndDestinationPageModule)
+  },
+  {
+    path: 'order-compelte',
+    loadChildren: () => import('./order-compelte/order-compelte.module').then( m => m.OrderCompeltePageModule)
   }
 ];
 
