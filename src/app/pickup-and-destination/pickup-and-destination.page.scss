@@ -1,0 +1,49 @@
+.main{ 
+    margin-top:30px;
+    padding: 10px;
+}
+
+ion-content{
+   --ion-background-color:#eff0f1;
+}
+
+.card{
+    padding:5px!important;
+}
+
+.heading{
+    font-weight: bold;
+    color: skyblue;
+    margin: 0;
+}
+
+.status{
+    font-size: 12px;
+    color:#ffce00;
+}
+.details{
+    background-color: #eff0f1;
+    display: inline;
+}
+.subHeading{
+    margin: 0 auto;
+    padding: 0;
+    font-size:13px ;
+}
+.onway{
+    float:right;
+}
+.confirm-btn{
+    height:40px;
+}
+
+.time-card{
+    height:50px;
+}
+.pickuptime{
+    text-align: center;
+}
+
+.vertical-spacing{
+    margin-top: 10px;
+}

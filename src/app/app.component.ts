@@ -33,7 +33,7 @@ export class AppComponent {
     },
     {
       title: 'Pickup and Destination',
-      url: '/pickup-and-destinationst',
+      url: 'pickup-and-destination',
       icon: 'bicycle'
     },
     {
